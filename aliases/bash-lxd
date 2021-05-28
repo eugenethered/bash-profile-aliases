@@ -1,9 +1,22 @@
 # bash related commands for lxc/lxd
 
+function lxc_bring_to() {
+  CONTAINER_ACTION=$1
+  CONTAINER_NAME=$2
+  echo "${CONTAINER_ACTION}ing container: $CONTAINER_NAME"
+  lxc $CONTAINER_ACTION $CONTAINER_NAME
+  clear
+  echo "waiting for [${CONTAINER_NAME}] to ${CONTAINER_ACTION}..."
+  sleep 3
+  clear
+  lxc list
+}
+
+
 # lxc
 alias lxc.list="clear;lxc list"
-alias lxc.start-container="lxc start $1" 
-alias lxc.stop-container="lxc stop $1"
+alias lxc.start-container="lxc_bring_to start $1" 
+alias lxc.stop-container="lxc_bring_to stop $1"
 alias lxc.config-edit-container="lxc config edit $1"
 alias lxc.log-container="lxc console --show-log $1"
 
