@@ -1,0 +1,33 @@
+# bash related commands for specific projects
+
+# banker
+alias banker.lxc.start="lxc.start-container banker-browser-ext"
+alias banker.lxc.stop="lxc.stop-container banker-browser-ext"
+alias banker.lxc.run-in="lxc.run-in.container banker-browser-ext"
+alias banker.project="cd ~/projects/code/banker/banker-browser-extension"
+
+# profile jumper 
+alias profile-jumper.lxc.start="lxc.start-container profile-jumper"
+alias profile-jumper.lxc.stop="lxc.stop-container profile-jumper"
+alias profile-jumper.lxc.run-in="lxc.run-in.container profile-jumper"
+alias profile-jumper.project="cd ~/projects/code/profile-jumper"
+
+# timebomb today
+alias timebomb-today.lxc.start="lxc.start-container timebomb-today-www"
+alias timebomb-today.lxc.stop="lxc.stop-container timebomb-today-www"
+alias timebomb-today.lxc.run-in="lxc.run-in.container timebomb-today-www"
+alias timebomb-today.project="cd ~/projects/code/timebomb-today/timebomb-today-www"
+
+# meson
+alias meson.lxc.start="lxc.start-container meson-browser-ext"
+alias meson.lxc.stop="lxc.stop-container meson-browser-ext"
+alias meson.lxc.run-in="lxc.run-in.container meson-browser-ext"
+alias meson.project="cd ~/projects/code/meson/meson-browser-extension"
+
+# eugenethered
+alias eugenethered.lxc.start="lxc.start-container eugenethered-www"
+alias eugenethered.lxc.stop="lxc.stop-container eugenethered-www"
+alias eugenethered.lxc.run-in="lxc.run-in.container eugenethered-www"
+alias eugenethered.project="cd ~/projects/code/eugenethered/eugenethered-www"
+
+

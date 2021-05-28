@@ -1,0 +1,12 @@
+# bash scripts paths
+
+export PATH=/home/eugenethered/bin/bash-scripts/:$PATH
+export PATH=/home/eugenethered/bin/sbt-scripts/:$PATH
+
+# lxc/lxd related from code
+export PATH=/home/eugenethered/projects/scripts/bash-scripts/lxc/:$PATH
+
+# python related
+export PATH=/home/eugenethered/projects/scripts/bash-scripts/python/:$PATH
+
+

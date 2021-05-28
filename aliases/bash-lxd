@@ -1,0 +1,14 @@
+# bash related commands for lxc/lxd
+
+# lxc
+alias lxc.list="clear;lxc list"
+alias lxc.start-container="lxc start $1"
+alias lxc.stop-container="lxc stop $1"
+alias lxc.config-edit-container="lxc config edit $1"
+alias lxc.log-container="lxc console --show-log $1"
+
+# run in spcific containers (generic)
+alias lxc.run-in.container.root='function __lxc_run_in_root() { lxc exec $1  bash; unset -f __lxc_run_in_root; }; __lxc_run_in_root'
+alias lxc.run-in.container='function __lxc_run_in() { lxc exec $1 --user 1000 bash; unset -f __lxc_run_in; }; __lxc_run_in'
+
+

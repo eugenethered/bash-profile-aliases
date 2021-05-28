@@ -1,0 +1,12 @@
+# git related
+
+# github
+alias github-ssh-add="ssh-add ~/.ssh/github-eugene_the_red"
+
+# git short commands
+alias gs="git status"
+alias ga="git add ."
+alias gp="git push"
+alias gc="git commit -m $1"
+alias gl="git log"
+

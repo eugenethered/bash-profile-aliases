@@ -1,0 +1,19 @@
+# Bash Colour prompt
+
+
+USER='\[\033[38;5;10m\]\u\[$(tput sgr0)\]'
+
+AT_SEPERATOR='\[\033[38;5;15m\]@\[$(tput sgr0)\]'
+
+HOST='\[\033[38;5;31m\]\h\[$(tput sgr0)\]'
+
+WORKING_DIR_PRE='\[\033[38;5;15m\]:[\[$(tput bold)\]'
+WORKING_DIR_END='\[\033[38;5;15m\]]\[$(tput sgr0)\]'
+WORKING_DIR='\[\033[38;5;12m\]\w\[$(tput sgr0)\]'
+
+PROMPT_END='\[\033[38;5;34m\]\[$(tput sgr0)\]\[\033[38;82;15m\] \[$(tput sgr0)\]'
+
+
+
+PS1="${USER}${AT_SEPERATOR}${HOST}${WORKING_DIR_PRE}${WORKING_DIR}${WORKING_DIR_END}${PROMPT_END}"
+

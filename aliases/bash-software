@@ -1,0 +1,20 @@
+# bash software home dir's
+
+# java
+export JAVA_HOME="/home/eugenethered/software/jdk"
+export JDK_HOME=$JAVA_HOME
+export IDEA_JDK=$JAVA_HOME
+export PATH=$JAVA_HOME/bin:$PATH
+
+# scala
+SCALA_HOME="/home/eugenethered/software/sdk"
+export PATH=$SCALA_HOME/bin:$PATH
+
+# gradle
+GRADLE_HOME="/home/eugenethered/software/gbt"
+export PATH=$GRADLE_HOME/bin:$PATH
+
+# sbt
+SBT_HOME="/home/eugenethered/software/sbt"
+export PATH=$SBT_HOME/bin:$PATH
+
