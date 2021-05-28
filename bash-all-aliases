@@ -1,4 +1,4 @@
-# include this top level file in ~/.bashrc file
+# include this top level file in ~/.bash_aliases file
 # e.g. [. ~/bash/bash-profile-aliases/bash-all-aliases] (snip between brackets)
 
 BASH_PROFILE_ALIASES_DIR=~/bash/bash-profile-aliases/aliases
