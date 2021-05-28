@@ -2,7 +2,7 @@
 
 # lxc
 alias lxc.list="clear;lxc list"
-alias lxc.start-container="lxc start $1"
+alias lxc.start-container="lxc start $1" 
 alias lxc.stop-container="lxc stop $1"
 alias lxc.config-edit-container="lxc config edit $1"
 alias lxc.log-container="lxc console --show-log $1"
