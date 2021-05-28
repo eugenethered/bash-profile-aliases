@@ -1,0 +1,24 @@
+# include this top level file in ~/.bashrc file
+# e.g. [. ~/bash-profile-aliases/bash-all-aliases] (snip between brackets)
+
+# ls
+. ~/bash-profile-aliases/alias/bash-ls
+
+# bash scripts
+. ~/bash-profile-aliases/alias/bash-scripts
+
+# software home dir's
+. ~/bash-profile-aliases/alias/bash-software
+
+# git & github
+. ~/bash-profile-aliases/alias/bash-git
+
+# lc/lxd
+. ~/bash-profile-aliases/alias/bash-lxd
+
+# projects
+. ~/bash-profile-aliases/alias/bash-projects
+
+# search
+. ~/bash-profile-aliases/alias/bash-search
+
